@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5e5d5dd7;
+    color: white;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+     background-color: #000000d7;
+     padding: 6px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+nav>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+    padding-bottom: 8px;
+}
+
+main {
+    padding: 25px;
+    text-align:justify;
+}
+
+h2{
+    text-align: center;
+}
+
+p {
+    margin: 15px;
+}
+
+
+.boxdoida{
+     background-color: rgb(65, 67, 67);
+     border-radius: 16px;
+     border: 3px solid rgb(0, 0, 0);
+
+}
+
+.interessado {
+     margin-top: 10px;
+     background-color: rgb(65, 67, 67);
+     border-radius: 16px;
+     border: 3px solid rgb(0, 0, 0);
+}
+
+.interessado>a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.regs>form{
+    display: flex;
+    flex-direction: column;
+}
+
+.jogos{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 100%;
+}
+
+.jogos > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+  }
+  
+  .jogos > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .jogos > div > p {
+    margin: 10px;
+  }
+
+footer{
+    background-color: #000000d7;
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+}
+
+
+table {
+    overflow-x: auto;
+    scrollbar-width: 10px;
+    scrollbar-color: red;
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+ 
+
+
